@@ -1,0 +1,7 @@
+.idea
+.now
+.env
+node_modules
+package-lock.json
+config.json
+recover.json

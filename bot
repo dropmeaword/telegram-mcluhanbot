@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# this is for local development, you need to have the `localtunnel` npm package installed
+lt -h "http://serverless.social" -p 3000 -s mcluhanbot --print-requests
+
+# in the bot's code you would make a webhook to the serverless.social address that gets printed
+# remember that Telegram webhook only talk to http**S** addresses, not http.
